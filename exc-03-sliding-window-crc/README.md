@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 3
 - **Manual Title**: Implementation of sliding window and CRC protocols.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 
@@ -44,11 +44,13 @@ To write Java programs for simulating the **Sliding Window Protocol** for reliab
 
 ### Sliding Window:
 - CMD: `run_sliding_window.bat`
-- PowerShell: `.un_sliding_window.ps1`
+- PowerShell: `.
+un_sliding_window.ps1`
 
 ### CRC:
 - CMD: `run_crc.bat`
-- PowerShell: `.un_crc.ps1`
+- PowerShell: `.
+un_crc.ps1`
 
 ---
 

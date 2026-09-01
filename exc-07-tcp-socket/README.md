@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 7
 - **Manual Title**: Develop a client-server based TCP application using socket programming functions.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 
@@ -13,8 +13,10 @@ To write a Java program for implementing **Client–Server communication using T
 ---
 
 ## 3. How to Run
-- Terminal 1: `run_server.bat` (or `.un_server.ps1`)
-- Terminal 2: `run_client.bat` (or `.un_client.ps1`)
+- Terminal 1: `run_server.bat` (or `.
+un_server.ps1`)
+- Terminal 2: `run_client.bat` (or `.
+un_client.ps1`)
 
 ---
 

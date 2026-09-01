@@ -1,16 +1,18 @@
-# 24IT5611 Networks Laboratory: Lab Submission & Execution Checklist
+# 🌐 Networks-Commands-Deeply: Developer Verification Guide
 
-This checklist guides students and faculty through validating, running, and preparing lab records for all 10 exercises in **24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)**.
-
----
-
-## 1. Environment Checklist
-- [ ] Windows 10 / 11
-- [ ] Java JDK installed (`javac` and `java` in PATH)
-- [ ] Network connection active for Exercise 1
-- [ ] OPNET / Packet Tracer installed for Exercises 9 & 10
+This guide details testing and verification workflows for all 10 modules in the **Networks-Commands-Deeply** engineering suite.
 
 ---
 
-## 2. Dynamic Execution Options
-- Run `run_lab.bat` (CMD) or `.\run_lab.ps1` (PowerShell) to access the interactive menu for all 10 exercises.
+## 1. System Requirements
+- Microsoft Windows 10 / 11 or Linux
+- JDK 8 or higher (`javac -version`, `java -version`)
+- Network interface active for ICMP/DNS testing
+- Optional: Cisco Packet Tracer 8.x, OPNET Modeler
+
+---
+
+## 2. Testing Workflows
+1. Launch `.\run_lab.ps1` or `run_lab.bat`.
+2. Choose Option `[11]` to compile all Java source files.
+3. Choose Option `[12]` to execute the automated verification test suite.

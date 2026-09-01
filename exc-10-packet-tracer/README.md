@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 10
 - **Manual Title**: Simulation using Packet Tracer — Design a Network using Packet Tracer.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 

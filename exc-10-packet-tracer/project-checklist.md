@@ -15,4 +15,4 @@
 ## 3. Verification
 - [ ] On PC: `ipconfig /renew` (verifies `192.168.0.x`).
 - [ ] On PC: `ping Cisco.com` (4 replies received from `208.67.220.220`).
-- [ ] Save as `Network_Design_24IT5611.pkt`.
+- [ ] Save as `Network_Design_Networks-Commands-Deeply.pkt`.

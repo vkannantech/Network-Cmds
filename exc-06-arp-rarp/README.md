@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 6
 - **Manual Title**: Implement Address Resolution Protocol (ARP) and Reverse Address Resolution Protocol (RARP).
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 

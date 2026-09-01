@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 5
 - **Manual Title**: Configure a network using Link state routing protocols.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 

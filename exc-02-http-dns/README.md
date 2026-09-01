@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 2
 - **Manual Title**: Implementation of HTTP and DNS protocols.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 
@@ -70,12 +70,16 @@ To write Java programs for implementing the HTTP protocol using TCP sockets for 
 ## 7. How to Run on Windows CMD / PowerShell
 
 ### HTTP Test:
-- Terminal 1: `run_http_server.bat` (or `.un_http_server.ps1`)
-- Terminal 2: `run_http_client.bat` (or `.un_http_client.ps1`)
+- Terminal 1: `run_http_server.bat` (or `.
+un_http_server.ps1`)
+- Terminal 2: `run_http_client.bat` (or `.
+un_http_client.ps1`)
 
 ### DNS Test:
-- Terminal 1: `run_dns_server.bat` (or `.un_dns_server.ps1`)
-- Terminal 2: `run_dns_client.bat` (or `.un_dns_client.ps1`)
+- Terminal 1: `run_dns_server.bat` (or `.
+un_dns_server.ps1`)
+- Terminal 2: `run_dns_client.bat` (or `.
+un_dns_client.ps1`)
 
 ---
 

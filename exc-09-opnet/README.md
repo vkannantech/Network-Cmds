@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 9
 - **Manual Title**: Study OPNET; performance analysis of TCP/UDP protocol using OPNET.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 

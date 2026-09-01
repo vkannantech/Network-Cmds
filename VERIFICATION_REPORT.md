@@ -1,7 +1,7 @@
-# 24IT5611 Networks Laboratory: Comprehensive Verification Report
+# Networks-Commands-Deeply Suite: Comprehensive Verification Report
 
 **Academic Year**: 2026–2027 (Odd)  
-**Course Code**: 24IT5611 – Networks Laboratory  
+**Course Code**: Networks-Commands-Deeply Suite  
 **Host Environment**: Microsoft Windows 10/11 x64  
 **Date of Verification**: 2026-09-01  
 **Verification Suite Status**: **100% PASS** (All Java source files, single-process programs, client-server socket pairs, and diagnostic scripts executed and verified with live terminal evidence)

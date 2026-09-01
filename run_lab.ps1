@@ -1,27 +1,27 @@
-# 24IT5611 - Networks Laboratory Master Control Runner (PowerShell)
-$Host.UI.RawUI.WindowTitle = "24IT5611 Networks Lab Master Control"
+# Networks-Commands-Deeply - Master Control Runner (PowerShell)
+$Host.UI.RawUI.WindowTitle = "Networks-Commands-Deeply Master Control"
 Set-Location $PSScriptRoot
 
 function Show-Menu {
     Clear-Host
     Write-Host "===============================================================================" -ForegroundColor Cyan
-    Write-Host "       24IT5611 - NETWORKS LABORATORY (ACADEMIC YEAR 2026-2027 ODD)" -ForegroundColor Cyan
-    Write-Host "                 DYNAMIC RUNTIME INTERACTIVE LAUNCHER" -ForegroundColor Cyan
+    Write-Host "                NETWORKS-COMMANDS-DEEPLY: MASTER CONTROL CENTER" -ForegroundColor Cyan
+    Write-Host "        NETWORK PROTOCOLS, DIAGNOSTICS & SOCKET ENGINEERING SUITE" -ForegroundColor Cyan
     Write-Host "===============================================================================" -ForegroundColor Cyan
     Write-Host ""
-    Write-Host "  [1]  Exercise 1  : Demonstrate Various Network Commands" -ForegroundColor Yellow
-    Write-Host "  [2]  Exercise 2  : Implementation of HTTP and DNS Protocols" -ForegroundColor Yellow
-    Write-Host "  [3]  Exercise 3  : Sliding Window and CRC Protocols" -ForegroundColor Yellow
-    Write-Host "  [4]  Exercise 4  : Distance Vector Routing Protocol" -ForegroundColor Yellow
-    Write-Host "  [5]  Exercise 5  : Link State Routing Protocol (Dijkstra)" -ForegroundColor Yellow
-    Write-Host "  [6]  Exercise 6  : Address Resolution Protocol (ARP / RARP)" -ForegroundColor Yellow
-    Write-Host "  [7]  Exercise 7  : Client-Server TCP Socket Application" -ForegroundColor Yellow
-    Write-Host "  [8]  Exercise 8  : Client-Server UDP Socket Application" -ForegroundColor Yellow
-    Write-Host "  [9]  Exercise 9  : Launch OPNET / IT Guru Modeler" -ForegroundColor Yellow
-    Write-Host "  [10] Exercise 10 : Launch Cisco Packet Tracer" -ForegroundColor Yellow
+    Write-Host "  [1]  Module 01 : Core Diagnostic Network Commands (ping, tracert, netstat...)" -ForegroundColor Yellow
+    Write-Host "  [2]  Module 02 : HTTP Binary Image Transfer (TCP 387) & DNS Resolution (UDP 1309)" -ForegroundColor Yellow
+    Write-Host "  [3]  Module 03 : Sliding Window Flow Control & Modulo-2 CRC Checksum" -ForegroundColor Yellow
+    Write-Host "  [4]  Module 04 : Distance Vector Routing Protocol (Bellman-Ford)" -ForegroundColor Yellow
+    Write-Host "  [5]  Module 05 : Link State Routing Protocol (Dijkstra SPF)" -ForegroundColor Yellow
+    Write-Host "  [6]  Module 06 : Address Resolution Protocol (ARP / RARP)" -ForegroundColor Yellow
+    Write-Host "  [7]  Module 07 : High-Throughput TCP Client-Server Socket Application" -ForegroundColor Yellow
+    Write-Host "  [8]  Module 08 : Connectionless UDP Datagram Messaging Application" -ForegroundColor Yellow
+    Write-Host "  [9]  Module 09 : Launch OPNET / IT Guru Modeler" -ForegroundColor Yellow
+    Write-Host "  [10] Module 10 : Launch Cisco Packet Tracer Network Design" -ForegroundColor Yellow
     Write-Host "  -----------------------------------------------------------------------------" -ForegroundColor Gray
-    Write-Host "  [11] COMPILE ALL : Compile All Java Source Files (Ex 2 - Ex 8)" -ForegroundColor Green
-    Write-Host "  [12] TEST ALL    : Run Automated Verification Suite Across All Labs" -ForegroundColor Green
+    Write-Host "  [11] COMPILE ALL : Compile All Java Source Files (Modules 02 - 08)" -ForegroundColor Green
+    Write-Host "  [12] TEST ALL    : Run Automated Verification Suite Across All Modules" -ForegroundColor Green
     Write-Host "  [0]  EXIT" -ForegroundColor Red
     Write-Host "===============================================================================" -ForegroundColor Cyan
 }
@@ -33,7 +33,7 @@ do {
         "1" { & "$PSScriptRoot\exc-01-network-commands\run_commands.ps1" }
         "2" {
             Clear-Host
-            Write-Host "Exercise 2: HTTP & DNS" -ForegroundColor Cyan
+            Write-Host "Module 02: HTTP & DNS" -ForegroundColor Cyan
             Write-Host "1. Start HTTP Server"
             Write-Host "2. Run HTTP Client"
             Write-Host "3. Start DNS Server"

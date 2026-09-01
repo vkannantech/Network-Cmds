@@ -1,4 +1,4 @@
-# 24IT5611 Networks Laboratory: Master Viva Voce Question Bank (Exercises 1–10)
+# Networks-Commands-Deeply Suite: Master Viva Voce Question Bank (Exercises 1–10)
 
 This master document contains **140+ high-yield viva voce questions and concise 15–30 second spoken answers** categorized by experiment for comprehensive oral examination preparation.
 

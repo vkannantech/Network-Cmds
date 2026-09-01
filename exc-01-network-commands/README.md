@@ -3,7 +3,7 @@
 ## 1. Experiment Number & Title
 - **Experiment No**: 1
 - **Manual Title**: Demonstrate various network commands.
-- **Course**: 24IT5611 – Networks Laboratory (Academic Year 2026–2027 Odd)
+- **Course**: Networks-Commands-Deeply Engineering Suite
 
 ---
 
@@ -49,7 +49,7 @@ To learn and demonstrate the use of essential network diagnostic and administrat
 ## 6. Files in this Exercise
 - [run_commands.bat](file:///d:/Collage%20Meterials/SEM-5/DCCN/Network_Lab_Manual/network-lab/exc-01-network-commands/run_commands.bat): Automated Windows batch runner that executes all 10 diagnostic commands sequentially with formatted headers.
 - [run_commands.ps1](file:///d:/Collage%20Meterials/SEM-5/DCCN/Network_Lab_Manual/network-lab/exc-01-network-commands/run_commands.ps1): PowerShell runner script with formatted headers.
-- [README.md](file:///d:/Collage%20Meterials/SEM-5/DCCN/Network_Lab_Manual/network-lab/exc-01-network-commands/README.md): Comprehensive documentation, command syntax, viva Q&As, and lab record guide.
+- [README.md](file:///d:/Collage%20Meterials/SEM-5/DCCN/Network_Lab_Manual/network-lab/exc-01-network-commands/README.md): Comprehensive documentation, command syntax, viva Q&As, and engineering documentation guide.
 
 ---
 
@@ -64,7 +64,8 @@ run_commands.bat
 ### Option B: PowerShell Runner
 ```powershell
 cd network-lab\exc-01-network-commands
-.un_commands.ps1
+.
+un_commands.ps1
 ```
 
 ---
@@ -80,7 +81,7 @@ cd network-lab\exc-01-network-commands
 
 ```text
 ===============================================================================
-       24IT5611 - NETWORKS LABORATORY - EXERCISE 1
+       Networks-Commands-Deeply - NETWORKS LABORATORY - EXERCISE 1
        DEMONSTRATE VARIOUS NETWORK COMMANDS
 ===============================================================================
 
@@ -199,7 +200,7 @@ Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
 
 ---
 
-## 14. Lab-Record Screenshot Checklist
+## 14. Verification-Evidence Screenshot Checklist
 1. [ ] Screenshot of `ping 127.0.0.1` and `ping 8.8.8.8` showing 0% packet loss and measured RTT.
 2. [ ] Screenshot of `ipconfig /all` displaying Ethernet/Wi-Fi adapter details (IPv4, Subnet Mask, Gateway, MAC).
 3. [ ] Screenshot of `netstat -an` showing `LISTENING` and `ESTABLISHED` ports.
