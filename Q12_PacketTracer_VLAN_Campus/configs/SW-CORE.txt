@@ -1,0 +1,60 @@
+enable
+configure terminal
+hostname SW-CORE
+enable secret cisco123
+service password-encryption
+banner motd #Authorized access only - College Network#
+no ip domain-lookup
+!
+vlan 10
+ name LABS
+vlan 20
+ name STAFF
+vlan 30
+ name ADMIN
+vlan 40
+ name SERVERS
+vlan 99
+ name MANAGEMENT
+ exit
+!
+interface GigabitEthernet0/1
+ description Trunk to R1
+ switchport mode trunk
+ exit
+interface range FastEthernet0/1 - 2
+ description Trunks to SW-LAB and SW-OFFICE
+ switchport mode trunk
+ exit
+interface FastEthernet0/10
+ description College Server
+ switchport mode access
+ switchport access vlan 40
+ exit
+interface range FastEthernet0/3 - 9
+ description UNUSED
+ switchport mode access
+ shutdown
+ exit
+interface range FastEthernet0/11 - 24
+ description UNUSED
+ switchport mode access
+ shutdown
+ exit
+interface GigabitEthernet0/2
+ description UNUSED
+ switchport mode access
+ shutdown
+ exit
+!
+interface Vlan99
+ ip address 192.168.99.2 255.255.255.0
+ no shutdown
+ exit
+ip default-gateway 192.168.99.1
+line console 0
+ password console123
+ login
+ exit
+end
+write memory
