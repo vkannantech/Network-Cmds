@@ -100,7 +100,7 @@ The two clients' requests are interleaved, which shows they really are served at
 
 **Connection stability**
 - Connection-oriented: TCP 3-way handshake before data, FIN on close.
-- `setKeepAlive(true)` detects dead peers; `setSoTimeout()` frees threads held by idle or crashed clients.
+- `setKeepAlive(true)` detects dead peers; `setSoTimeout(600000)` frees threads held by idle or crashed clients after 10 minutes of silence.
 - Every client is handled inside try/finally, so one failing client never crashes the server or other users.
 - The client uses a connect timeout, so it fails cleanly if the server is down.
 

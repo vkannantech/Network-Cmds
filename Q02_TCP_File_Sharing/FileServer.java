@@ -32,7 +32,7 @@ public class FileServer {
             System.out.println("[+] Connected   " + who + "  (thread " + Thread.currentThread().getName() + ")");
             try (DataInputStream in = new DataInputStream(s.getInputStream());
                  DataOutputStream out = new DataOutputStream(s.getOutputStream())) {
-                s.setSoTimeout(120000);    // drop idle/dead clients after 2 min
+                s.setSoTimeout(600000);    // drop idle/dead clients after 10 min
                 s.setKeepAlive(true);      // detect broken connections
                 while (true) {
                     String cmd = in.readUTF();
