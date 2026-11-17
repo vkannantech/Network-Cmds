@@ -45,5 +45,3 @@ extracted_manual_text.txt
 # Lab run outputs
 Q02_TCP_File_Sharing/downloads/
 
-# Third-party Packet Tracer file without a license - local use only
-Q12_PacketTracer_VLAN_Campus/reference_pkt/Campus_VLAN_PT9.0_University.pkt

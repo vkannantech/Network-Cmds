@@ -140,10 +140,9 @@ interface GigabitEthernet0/1
 ## Ready-made .pkt (downloaded and verified)
 | File | PT version | Use on |
 |---|---|---|
-| `reference_pkt/Campus_VLAN_PT8.2.2_Albion.pkt` | 8.2.2 (opens in 8.x and 9.x) | **College PC** (safe everywhere) |
-| `reference_pkt/Campus_VLAN_PT9.0_University.pkt` | 9.0 (9.x only) | **Linux laptop** (PT 9.0.1) – local copy only |
+| `reference_pkt/Campus_VLAN_PT8.2.2_Albion.pkt` | 8.2.2 (opens in 8.x and 9.x) | College PC and laptop (opens in 8.x and 9.x) |
 
-The PT 8.2.2 file is router-on-a-stick VLANs (Admin, HR, Finance, Student Labs, Staff) with per-VLAN DHCP and RIP. The PT 9.0 file is a larger Layer-3-switch design with OSPF, ACLs, port security and wireless. Details and demo steps are in `reference_pkt/README.md`.
+The PT 8.2.2 file is router-on-a-stick VLANs (Admin, HR, Finance, Student Labs, Staff) with per-VLAN DHCP and RIP. Details and demo steps are in `reference_pkt/README.md`.
 
 ## Reference
 A routed campus network built earlier (3 routers with RIP, departmental LANs, DNS/WEB/FTP servers, no VLANs) is in `excer/exc-10-packet-tracer/College Network.pkt`.

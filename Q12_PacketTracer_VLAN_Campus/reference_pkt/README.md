@@ -1,11 +1,10 @@
-# Ready-made reference .pkt files for Q12 (two Packet Tracer versions)
+# Ready-made reference .pkt file for Q12
 
 | File | Saved in | Opens in | Use on | In GitHub repo? |
 |---|---|---|---|---|
 | `Campus_VLAN_PT8.2.2_Albion.pkt` | PT **8.2.2** | PT 8.2.x **and** 9.x | **College Windows PCs** (and laptop) | Yes (MIT license) |
-| `Campus_VLAN_PT9.0_University.pkt` | PT **9.0** | PT **9.x only** | **Your Linux laptop** (PT 9.0.1 installed) | No (no license, kept locally only) |
 
-> Packet Tracer opens files from older versions but **not** from newer ones. Check **Help → About** on the college PC: on 8.x use the PT 8.2.2 file. **If unsure, use the PT 8.2.2 file; it works everywhere.**
+> Packet Tracer opens files from older versions but **not** from newer ones. This PT 8.2.2 file therefore opens on both the college PCs (8.x) and the laptop (9.x).
 
 ## Campus_VLAN_PT8.2.2_Albion.pkt
 - **Source:** https://github.com/ro-drick/Albion-University-Network-Design (file `campus-network.pkt`), © 2024 Rodrick Cheruiyot, **MIT License** (see `LICENSE-Albion.txt`).
@@ -34,9 +33,3 @@
 4. Show `show ip interface brief` and `show ip dhcp binding` on the MAIN CAMPUS ROUTER, and `show vlan brief` on an access switch.
 
 > Use it as a reference or a demo. If the examiner wants you to build the network yourself, follow the step-by-step procedure in `../README.md` using the `../configs/*.txt` files.
-
-## Campus_VLAN_PT9.0_University.pkt (laptop only)
-- **Source:** https://github.com/shahdyesen/University-Network-Project (file `university.pkt`). The repo has **no license**, so the file is kept for personal study and is excluded from the public repo (`.gitignore`).
-- **Saved with:** Packet Tracer **9.0**, so it **won't open in PT 8.x**.
-- **Contents (checked by decoding):** Administration / Labs / Dorms buildings; 7 routers, 2 × Multilayer Switch 3560 (inter-VLAN routing with SVIs, **OSPF area 0**), 4 × 2960, **ACLs** (student, staff, lab, mgmt), **port security** (sticky MAC, max 4), DHCP pools (student 172.168.10.0, camera 20.0, lab_pc 30.0, staff 40.0, mgmt 50.0), wireless LAN controllers + 9 access points, IP phones, 19 laptops, 13 PCs, 57 cables.
-- A more advanced design: it uses a **Layer-3 switch** instead of router-on-a-stick. Good for the "scalability and security" justification.

@@ -21,7 +21,7 @@ The older manual-based exercises (Ex 1–10) are kept in [`excer/`](excer/).
 | 9 | **Distance Vector** + split horizon / poison reverse | [Q09_Distance_Vector_PoisonReverse](Q09_Distance_Vector_PoisonReverse/) | `DistanceVectorSim` | – |
 | 10 | **Link State (Dijkstra)** + link failure, vs DV | [Q10_Link_State_Dijkstra](Q10_Link_State_Dijkstra/) | `LinkStateSim` | – |
 | 11 | **RIP vs OSPF**: convergence, PDR, overhead | [Q11_Routing_Protocol_Comparison](Q11_Routing_Protocol_Comparison/) | `RoutingSimulator` | – |
-| 12 | **Packet Tracer campus network with VLANs** | [Q12_PacketTracer_VLAN_Campus](Q12_PacketTracer_VLAN_Campus/) | `configs/*.txt` + ready `.pkt` (PT 8.2.2 and PT 9.0) | – |
+| 12 | **Packet Tracer campus network with VLANs** | [Q12_PacketTracer_VLAN_Campus](Q12_PacketTracer_VLAN_Campus/) | `configs/*.txt` + ready `.pkt` (PT 8.2.2) | – |
 
 ## Requirements
 - **Java JDK 8 or newer** (`javac -version`). All code is checked to compile with `--release 8`, so it works on old college JDKs.
