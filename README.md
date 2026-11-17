@@ -45,6 +45,31 @@ Compile everything: `./compile_all.sh`. Run the full automatic test suite: `./ve
 
 > Always recompile (the scripts do) before running on another PC; `.class` files from a newer JDK fail on an older one with `UnsupportedClassVersionError`.
 
+## Running Server + Client Side by Side (two terminals)
+Client/server questions (Q2, Q3, Q5, Q7) need **two programs running at the same time**: start the server first, then the client.
+
+| Where | How to get a second terminal |
+|---|---|
+| **Windows** | Double-click `run_server.bat`, then double-click `run_client.bat`. Each opens its own window. Or press **Win + R** → `cmd` → Enter twice for two Command Prompts, and `cd` into the folder in each. Windows Terminal: **Ctrl + Shift + T** (new tab) or **Alt + Shift + +** (split pane). |
+| **Linux** | Terminal 1: `./run_server.sh`. Press **Ctrl + Shift + T** (new tab) or **Ctrl + Shift + N** (new window) → `cd` to the same folder → `./run_client.sh` |
+| **VS Code** | Terminal → New Terminal, then click the **split** icon (or **Ctrl + Shift + 5**). Run the server on the left, the client on the right. |
+| **Eclipse** | See below. Each run gets its own Console. |
+
+Stop a server with **Ctrl + C** (terminal) or the red ■ Terminate button (Eclipse).
+For Q2 you can open **3 terminals** (1 server + 2 clients) to show multiple users.
+
+## Running in Eclipse
+1. **File → New → Java Project**, name it e.g. `Q02`.
+2. **Untick "Use default location"** → **Browse** → select the question folder (e.g. `Q02_TCP_File_Sharing`) → **Finish**. If asked about `module-info.java`, choose **Don't Create**.
+   *Why:* Eclipse then runs the program **inside that folder**, so `shared/` (Q2) and `www/` (Q4) are found. If you copy only the `.java` files into a new project's `src/`, also copy those folders to the **project root** (not into `src`).
+3. Check the JDK: right-click project → Properties → Java Compiler → compliance **8 or higher**.
+4. **Server:** right-click `FileServer.java` → **Run As → Java Application**.
+5. **Client:** right-click `FileClient.java` → **Run As → Java Application**. Both now run together.
+6. **Switch between them:** in the Console view, click the **Display Selected Console** (monitor ▾) button. To see both at once: Console menu ▾ → **New Console View**, **Pin** one console, and drag the view to the side.
+7. **Typing input:** click inside the Console and type (for example `LIST` or an answer), then press Enter.
+8. **Arguments** (Q3 `0.3`, Q7 `rarp-only`, server IP for a client): **Run → Run Configurations… → Arguments** tab → Program arguments.
+9. Single programs (Q6, Q8–Q11): just **Run As → Java Application**. Q1 is a script and Q12 is Packet Tracer, so no Eclipse is needed for those.
+
 ## Exam Tips
 - **Start the server before the client** (Q2, Q3, Q5, Q7). Stop a server with **Ctrl + C**.
 - "Address already in use" means an old server is still running. Close it or wait a few seconds.
